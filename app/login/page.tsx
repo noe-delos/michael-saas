@@ -25,9 +25,11 @@ export default function LoginPage() {
           <div className="max-w-md">
             {/* Logo */}
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                <img src="/logo.png" className="w-8 h-8" alt="Logo" />
-              </div>
+              <img
+                src="https://static.wixstatic.com/media/64ba8e_ad472222fb0249af9fdb2fda9d15eb13~mv2.png/v1/crop/x_93,y_575,w_1435,h_288/fill/w_798,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo%20MA%20-%20Blanc%20Transparent.png"
+                className="w-[20rem] h-fit"
+                alt="Logo"
+              />
             </div>
 
             {/* Hero Content */}
@@ -90,9 +92,7 @@ export default function LoginPage() {
           {/* Mobile Logo */}
           <div className="lg:hidden text-center">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-[#0D3D60] to-[#DAB475] rounded-xl flex items-center justify-center">
-                <img src="/logo.png" className="w-8 h-8" alt="Logo" />
-              </div>
+              <img src="/logo.png" className="w-8 h-8" alt="Logo" />
             </div>
           </div>
 
